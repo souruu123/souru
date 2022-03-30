@@ -1,0 +1,307 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.a2{
+    
+    width: 200px;
+    margin-right: 50px;
+}
+#R1{
+    color: red;
+}
+#l1{
+    font-weight: bold;
+}
+#c1{
+    height: 550px;
+    width: 100%;
+     /* padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px; 
+   */
+}
+#s1{
+    text-align: left;
+    margin-bottom: 200px;
+}
+#pa{
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+#s2{
+    margin-top: 50px;
+
+}
+#dm1{
+    height: 500px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+#dm2{
+    height: 500px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+    
+}
+.sq{
+    margin-left: 60%;
+    margin-top: 10%;
+}
+#m31{
+    margin-left: 10px;
+}
+
+.sql{
+    margin-left: 60%;
+    margin-top: 10%;
+}
+#dm3{
+    height: 500px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 667px;
+}
+.sq3{
+
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+#mjk {
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+}
+
+
+#uk{
+    color: black;
+    
+}
+
+#wq{
+    margin-left: 1069px;
+
+    width: 400px;
+}
+#e1{
+    margin-left: 307px;
+}
+
+#b5{
+    margin-left: 45%; 
+    background-color: transparent;
+    border-radius: 10px;
+     
+}
+
+
+#mbv{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+#vmn{
+    color: rgb(138, 142, 145);
+}
+
+#vmn:hover{
+    color: rgb(231, 7, 7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: transparent;
+}
+
+#vmn1{
+    color: white;
+    font-weight: bold;
+}
+
+#vmn1:hover{
+    color: brown;
+}
+
+#vmn3{
+    border-radius: 5px;
+     color: rgb(214, 197, 197);
+      background-color: rgba(226, 19, 19, 0.356); 
+      height: 30px;
+}
+#vmn3:hover{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+#vmn4{
+    text-align: center;
+}
+
+#vmn4:hover{
+    color: crimson;
+}
+#vmn5:hover{
+    color: black;
+}
+
+#tt1{
+    background-color: transparent;
+     border-radius: 10px;
+}
+#tt1:hover{
+    background-color: black;
+    color: white;
+}
+
+#vmn6{
+    color: black;
+}
+#vmn6:hover{
+    color: white;
+}
+.qw:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#b5:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#df:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    #wq{
+        margin-left: 10px;
+    }
+    #e1{
+        margin-left: -65px;
+    }
+    #e2{
+        margin-left: -65px;
+    }
+    #e3{
+        margin-left: -65px;
+    }
+
+  .sq {
+    margin-top: 300px;
+    margin-left: 1px;
+    
+    }
+
+    .jk{
+        margin-top: 300px;
+    }
+
+    .sql{
+        margin-top: 160px;
+        margin-left: 1px;
+        margin-bottom: 800px;
+    }
+
+    #dm2{
+        height: 162px;
+        width: 231px;
+    }
+    
+    #dm1{
+        height: 280px;
+        width: 106%;
+    }
+
+    #tt1{
+        margin-left: -24%;
+    }
+
+    #dm3{
+        height: 343px;
+        width: 73%;
+        margin-top: 10px;
+        margin-left: 140px;
+        visibility: hidden;
+        
+    }
+   
+    
+    .bv{
+        margin-top: 350px;
+    }
+
+    #b5{
+        margin-left: 163px
+    }
+
+    #mjk{
+        color: rgb(22, 79, 238);
+        text-decoration: none;
+    }
+
+    #ic{
+        margin-left: 65%;
+        margin-bottom: 20px;
+    }
+
+    #c1{
+        height: 245px;
+        
+         /* padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 40px; 
+       */
+    }
+
+    
+
+}
+
+
+
+
+
+
+/* ****************************8 */
+
+
+
+
+
+
+
+@media screen and (min-width:800px) {
+    #dm3{
+        height: 500px;
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 373px;
+    }
+    #hj{
+        background-color: rgba(231, 231, 231, 0.863);
+       margin-left: 600px;
+   }
+   
+}
+
+
+

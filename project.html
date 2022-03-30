@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./project.css">
+    <script src="https://kit.fontawesome.com/dec67b2761.js" crossorigin="anonymous"></script>
+    
+</head>
+
+
+<body style="background-color: aliceblue;">
+    <!-- NAVBAR PROPERTIES -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top ">
+        <div class="container-fluid ">
+            <img src="./images/a3 logo.png" alt="" class="ms-4 ">
+            <h1 id="vmn">LAPTOPS</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active me-2 ms-5 " aria-current="page" href="#" id="l1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="#" id="l1">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-2" href="#" id="l1">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle me-2" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" id="l1">
+                            Support
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Warranty & Contact</a></li>
+                            <li><a class="dropdown-item" href="#">Order Support</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success a2" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel PROPERTIES  -->
+
+    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item active  ">
+                <img src="./images/asus.jpg" class="d-block w-100" alt="..." id="c1">
+                <div class="carousel-caption d-none d-md-block" id="s1">
+                    <h1 id="vmn1">Made affordable for you</h1> <br>
+                    <p style="margin-right: 200px;">The third advantage of using a laptop computer is that laptops are
+                        very light in weight.
+
+                        Laptop computers are designed in such a way that they are lightweight so that people of any age
+                        can carry laptop computers very easily.
+
+                        Due to laptop computer being light in weight, you can use the laptop anywhere, there are many
+                        uses of a laptop in our life.</p>
+
+                    <button  id="vmn3">Shop
+                        Now</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/asus 22.jpg" class="d-block w-100" alt="..." id="c1">
+                <div class="carousel-caption d-none d-md-block " id="s1">
+                    <h1  id="vmn1">IT experiences made better</h1> <br>
+                    <p style="margin-right: 200px;">One advantage of using a laptop computer is that laptops are smaller
+                        in size as compared to desktop computers.
+
+                        To use the laptop, not much space is required, you can keep the laptop even in less space.
+
+                        Due to the small size of the laptop, you can keep it in your briefcase and take it anywhere.</p>
+                    <button
+                         id="vmn3">Shop
+                        Now</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/ssk.jpg" class="d-block w-100" alt="..." id="c1">
+                <div class="carousel-caption d-none d-md-block " id="s1">
+                    <h1  id="vmn1">Made for your needs</h1> <br>
+                    <p style="margin-right: 200px;">One advantage of using a laptop computer is that you do not need to
+                        connect any separate peripheral device to the laptop.
+
+                        All the devices are already present in the laptop like - monitor screen, keyboard, mouse
+                        (touchpad), speaker, microphone, and an inbuilt camera, etc.
+
+                        I hope you understand the finished product.</p>
+                    <button id="vmn3">Shop
+                        Now</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> <br>
+    <!-- ******************************************************************************************* -->
+    <div class=" card  text-dark container" style="background-color: rgb(144, 178, 197); margin-bottom: 20px;">
+        <img src="./images/monitor.webp" class="card-img " alt="..." id="dm3">
+        <div class="card-img-overlay sq3  col-lg-3 col-md-4 col-sm-6 ">
+            <h5 class="card-title">
+                <h6>DECLUTTER & DOMINATE</h6>
+            </h5>
+            <p class="card-text">
+            <h2>MIGHTY PERFORMANCE. COMPACT DESIGN</h2>
+            </p>
+            <p class="card-text">
+            <h6>All your everyday computing needs, designed together.</h6>
+            </p>
+            <br>
+            <a href="">Shop All</a> <a href="" id="m31"> Shop Deals</a>
+        </div>
+    </div>
+    <!-- **************************************************************************************************** -->
+    <div class="container mb-2" style="height: 40px; width: 100%;  ">
+        <h4  id="vmn4"> <i class="fa-solid fa-laptop fa-1x" id="vmn5"></i>
+            Laptops
+        </h4>
+    </div>
+
+    <!-- Card 1-->
+
+    <div class="card-group container">
+        <!-- 1. -->
+        <div class="card col-md-4">
+            <img src="./images/asus 01.jpg" class="card-img-top" alt="..." id="pa">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center; "><a href="">ASUS Vivobook 15
+                        X515</a></h5>
+                <p class="card-text">
+                <ul>
+                    <li>
+                        <strong> Processor </strong>: Up to 10th gen Intel® Core™ i7 processor
+                    </li>
+                    <li>
+                        <strong> Memory</strong> : Up to 16 GB memory
+                    </li>
+                    <li>
+                        <strong>Storage</strong> : Up to 1 TB HDD + 512GB SSD storage
+                    </li>
+                    <li>
+                        <strong>Graphics</strong> : Up to NVIDIA® GeForce® MX330
+                    </li>
+                    <li>
+                        <strong>Display</strong> : (39.62cm)15.6-inch, FHD (1920 x 1080) / HD (1366 x 768), 16:9, LED
+                        Backlit, 200nits,
+                        NTSC: 45%, Anti-glare display, Screen-to-body ratio: 83 %
+                    </li>
+                    <li>
+                        <strong>Operating System </strong>: Windows 10 Home,Free Upgrade
+                        to Windows 11¹ (when available, see below)
+                    </li>
+
+                </ul>
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"><strong>Price : ₹29,990.00</strong></small>
+                <button style="margin-left: 75%;" class="btn btn-success">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+        <!-- 2. -->
+        <div class="card">
+            <img src="./images/Samsung-Notebook-9-2018.webp" class="card-img-top" alt="..." id="pa">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center; margin-top: 4px;"><a href="">Samsung Notebook 9
+                        (2018)</a></h5>
+                <p class="card-text" style="margin-top: 10px;">
+                <ul>
+                    <li>
+                        <strong> Processor</strong>: 8th Generation Intel® Core™ i5 / i7.
+                    </li>
+                    <li>
+                        <strong> Memory</strong> : Up to 8 GB memory
+                    </li>
+                    <li>
+                        <strong>Storage</strong> : 256GB
+                    </li>
+                    <li>
+                        <strong> Display</strong>: 13.3” Samsung RealView Touch | FHD (1920 x 1080) | 300nits.
+                    </li>
+
+                    <li>
+                        <strong>Camera</strong>: Web camera, 480p.
+
+                    </li>
+                    <li>
+                        <strong> Operating System</strong>: Windows 10 Home.
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"><strong>Price : ₹62,990</strong></small>
+                <button style="margin-left: 75%;" class="btn btn-success">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+
+        <!-- 3 -->
+
+        <div class="card">
+            <img src="./images/71OK3BgIRYL._SL1500_.jpg" class="card-img-top" alt="..." id="s2">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center; margin-top: 30px;"><a href="">IdeaPad Slim 3i (15,
+                        Intel)</a></h5>
+                <p class="card-text" style="margin-top: 10px;">
+                <ul>
+                    <li>
+                        <strong> Processor </strong>
+                        10th Generation Intel® Core™ i3-10110U Processor (2 Cores / 4 Threads, 2.10 GHz, up to 4.10 GHz
+                        with Turbo Boost, 4 MB Cache)
+                    </li>
+                    <li>
+                        <strong> Memory</strong> : 4 GB Soldered DDR4 2666MHz
+                    </li>
+                    <li>
+                        <strong>Storage</strong> : 256 GB M.2 2242 SSD
+                    </li>
+                    <li>
+                        <strong>Graphics</strong> : Integrated Intel® UHD Graphics
+                    </li>
+                    <li>
+                        <strong>Display</strong> : 15.6" FHD (1920 x 1080), TN, Anti-Glare, Non-Touch, 220 Nits
+                    </li>
+                    <li>
+                        <strong>Camera</strong>:720p HD with PrivacyShutter
+
+                    </li>
+                    <li>
+                        <strong>Operating System </strong>:Windows 11 Home 64
+                    </li>
+
+                </ul>
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"><strong>Price : ₹36,289</strong></small>
+
+                <button style="margin-left: 75%;" class="btn btn-success">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- card 2  -->
+
+    <div class="card-group container mt-4" style="padding-bottom: 20px;">
+
+        <!-- 1 -->
+        <div class="card">
+            <img src="./images/w800.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center; margin-top: -10px;"><a href="">ASUS M515 </a></h5>
+                <p class="card-text" style="margin-top: 10px;">
+                <ul>
+                    <li>
+                        <strong> Processor </strong>
+                        AMD Ryzen™ 5 5500U processor
+                    </li>
+                    <li>
+                        <strong> Memory</strong> : 8GB
+                    </li>
+                    <li>
+                        <strong>Storage</strong> : 512 GB PCIe® SSD and a 1 TB HDD
+                    </li>
+                    <li>
+                        <strong>Graphics</strong> :AMD Radeon™ Graphics
+                    </li>
+                    <li>
+                        <strong>Display</strong> : Up to 39.62cm(15.6) FHD NanoEdge display
+                    </li>
+                    <li>
+                        <strong>Camera</strong>:720p HD with PrivacyShutter
+
+                    </li>
+                    <li>
+                        <strong>Operating System </strong>:Windows 10 Home,Free Upgrade
+                        to Windows 11¹ (when available, see below)
+                    </li>
+
+                </ul>
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"><strong>Price : ₹ 49,990.00</strong></small>
+                <button style="margin-left: 75%;" class="btn btn-success">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+
+        <!-- 2 -->
+
+        <div class="card">
+            <img src="./images/m2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center; margin-top: -10px;"><a href="">ASUS X515</a></h5>
+                <p class="card-text" style="margin-top: 10px;">
+                <ul>
+                    <li>
+                        <strong> Processor </strong>
+                        Intel® Core™ i5 processor
+                    </li>
+                    <li>
+                        <strong> Memory</strong> :16 GB 2400 MHz
+                    </li>
+                    <li>
+                        <strong>Storage</strong> : 1 TB PCIe® SSD and a 1 TB HDD
+                    </li>
+                    <li>
+                        <strong>Graphics</strong> : NVIDIA® MX330 discrete graphics
+                    </li>
+                    <li>
+                        <strong>Display</strong> : Up to 39.62cm(15.6) FHD NanoEdge display
+                    </li>
+                    <li>
+                        <strong>Camera</strong>:720p HD with PrivacyShutter
+
+                    </li>
+                    <li>
+                        <strong>Operating System </strong>:Windows 10 Home,Free Upgrade
+                        to Windows 11¹ (when available, see below)
+                    </li>
+
+                </ul>
+                </p>
+
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"><strong>Price : ₹ 36,990.00</strong></small>
+                <button style="margin-left: 75%;" class="btn btn-success">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+
+        <!-- 3 -->
+
+        <div class="card">
+            <img src="./images/oled.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center; margin-top: -10px;"><a href="">ASUS Vivobook Pro 14X
+                        OLED</a></h5>
+                <p class="card-text" style="margin-top: 10px;">
+                <ul>
+                    <li>
+                        <strong> Processor </strong>
+                        Intel®
+                        Core™ i5-11300H
+                    </li>
+                    <li>
+                        <strong> Memory</strong> : 16GB
+                        3200 MHz DDR4
+                    </li>
+                    <li>
+                        <strong>Storage</strong> : 21TB
+                        SSD
+                    </li>
+                    <li>
+                        <strong>Graphics</strong> : NVIDIA®
+                        GeForce® RTX™ 3050
+                    </li>
+                    <li>
+                        <strong>Display</strong> : Up to 14'' 2.8K OLED NanoEdge display
+                    </li>
+                    <li>
+                        <strong>Camera</strong>:720p HD with PrivacyShutter
+
+                    </li>
+                    <li>
+                        <strong>Operating System </strong>:ASUS recommends Windows 10 Pro for business , Free Upgrade to
+                        Windows 11¹ (when available, see below)
+                    </li>
+
+                </ul>
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"><strong>Price : ₹ 94,990.00</strong></small>
+                <button style="margin-left: 75%;" class="btn btn-success">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- button  -->
+    <div style="margin-left: 48%;">
+        <button  id="tt1"> More Items</button>
+    </div>
+    <br>
+    <!-- card Image  -->
+    <div class="container">
+        <div class=" row card  text-dark container qw"
+            style="background-color: rgb(59, 133, 143); margin-bottom: 20px;">
+            <img src="./images/kk1.webp" class="card-img" alt="..." id="dm1">
+            <div class="card-img-overlay sq  col-lg-3 col-md-4 col-sm-6 ">
+                <h5 class="card-title">
+                    <h1 id="vmn6">G SERIES LAPTOPS</h1>
+                </h5>
+                <p class="card-text">
+                <h6>Unbox Gaming Glory</h6>
+                </p>
+                <p class="card-text">Impressive power & speed to lap your competition, now with discount on
+                    UPI/netbanking & no cost EMI.</p>
+
+                <a href="" id="mjk">Shop Deal</a> <a href="" id="mjk"> Explore G Series</a>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- card imge2  -->
+    <div class="container jk">
+        <div class=" row card  text-dark container qw " style="background-color: rgb(117, 126, 39); margin-bottom: 20px;">
+            <img src="./images/accs.webp" class="card-img" alt="..." id="dm2">
+            <div class=" card-img-overlay sql  col-lg-3 col-md-4 col-sm-6">
+                <h5 class="card-title">
+                    <h1 id="vmn6">EVERYDAY OFFICE ESSENTIALS</h1>
+                </h5>
+                <h6>Powerful electronics & accessories</h6>
+                <p class="card-text">Whether you're looking for a keyboard, mouse, docking station or something else,
+                    we've got you covered.</p>
+
+                <a href="" id="mjk">Shop Deal</a> <a href="" id="mjk"> Explore G Series</a>
+            </div>
+
+        </div>
+    </div>
+    <!-- card  -->
+    <div class="container bv ">
+        <div class="row row-cols-1 row-cols-md-2 g-4 me-3">
+            <div class="col " id="df">
+                <div class="card " style="background-color: rgb(152, 216, 228);">
+                    <img src="./images/fan.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BACK TO SCHOOL</h5>
+                        <p class="card-text">Lead the Future Now
+                            Back to School
+                            Explore immersive learning with instant discount up to ₹5,000 on UPI/Net-banking & no cost
+                            EMI</p>
+                    </div>
+                    <div>
+                        <h6 style="text-align: center;"> <a href="" style="text-decoration: none;"> Learn More</a></h6>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col" id="df">
+                <div class="card" style="background-color: rgb(180, 176, 176);">
+                    <img src="./images/mos.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">COMPUTER ELECTRONICS AND ACCESSORIES</h5>
+                        <p class="card-text">Overprepared For Everything
+                            DES UHP Banner
+                            Whether you're looking for a keyboard, mouse, docking station or something else, we've got
+                            you covered.</p>
+                    </div>
+                    <div>
+                        <h6 style="text-align: center;"> <a href="" style="text-decoration: none;"> Shop Deals</a></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <!-- button  -->
+    <div >
+        <button  id="b5"> More Items</button>
+    </div>
+    <br>
+    <hr>
+
+    <!-- footer section  -->
+    <div class="footer ff1">
+
+        <div class="row  container">
+
+            <!-- account section  -->
+            <div class="col-lg-3 col-md-4 col-sm-6 " id="e1">
+                <ul>
+                    <ol>
+                        <h6><strong>Account</strong></h6>
+                    </ol>
+                    <br>
+                    <ol>
+                        <a href="" style="color: black; text-decoration: none;">My Account</a>
+                    </ol>
+                    <br>
+                    <ol>
+                        <a href="" style="color: black; text-decoration: none;">Order Status</a>
+                    </ol>
+                    <br>
+                    <ol>
+                        <a href="" style="color: black; text-decoration: none;">My Products</a>
+                    </ol>
+                    <br>
+                </ul>
+
+            </div>
+
+            <!-- support section  -->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 " id="e2">
+                <ul>
+                    <ol>
+                         <h6><strong>Support </strong></h6>
+                        
+                    </ol>
+                    <br>
+                    <ol>
+                        <a href="" style="color: black; text-decoration: none;">Support Home</a>
+                    </ol>
+                    <br>
+                    <ol>
+                        <a href="" style="color: black; text-decoration: none;">Contact Us</a>
+                    </ol>
+                </ul>
+            </div>
+
+            <!-- connect with us -->
+
+            <div class="col-lg-3 col-md-4 col-sm-6 " id="e3">
+                <ul>
+                    <ol>
+                        
+                        <h6><strong>Connect With Us  </strong></h6>
+                    </ol>
+                    <br>
+                    <ol>
+                        <a href="" style="color: black; text-decoration: none;">Support Home</a>
+                    </ol>
+                    <br>
+                    <ol>
+                        <a href="" style="color: black; text-decoration: none;">Contact Us</a>
+                    </ol>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <!-- icons and typings  -->
+
+    <div class="container" id="wq">
+        <p>
+            COPYRIGHT: © 2021 A3 LAPTOPS Inc. All rights reserved.
+        </p>
+    </div>
+    <div class="container "  id="wq">
+        <a href="" class="uk">  <i class="fa-brands fa-facebook fa-2x" id="uk" ></i></a>
+        <a href=""><i class="fa-brands fa-twitter fa-2x"id="uk" ></i></a>
+         <a href=""><i class="fa-brands fa-instagram fa-2x"id="uk"></i></a>
+    </div>
+      
+ 
+</body>
+
+</html>
